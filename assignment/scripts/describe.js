@@ -133,14 +133,20 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+// FIX - colorOne and colorTwo values need to be changed
+// colorOne = blue & colorTwo = red
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
+// FIX - add to the function, colorTwo is also purple
+// colorTwo = 'pruple';
 if (mix === true) {
   colorOne = 'purple';
 }
 */
+
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -150,6 +156,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - || signifies OR it should be replaced with && to make sure BOTH requirements are fulfilled before excuting the function.
+// if (temp > 39 && time >= 4)
+// The statement is true and the console would log 'throw away the food!'
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
