@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane as a string.
+// We check if the name variable is equal to the string 'Mary'`. It is not.
+// This means we skip the console.log 'Hi, Mary!'. This leads us to automatically refer to the second log message as a default.
+// We console.log 'How do you do?'
 
 //CODE
 /*
