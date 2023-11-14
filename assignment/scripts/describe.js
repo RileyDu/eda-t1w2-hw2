@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret and leave it unset.
+// We make a variable called code and set it to the number 123.
+// We check if the code variable is equal to 123. It is equal!!!
+// We execute the function. We set the secret variable to the string of 'super' and double our code variable, resulting in 246.
+// After excuting the function we then make our second check. Is the code variable (246) less than 250? It is!
+// This means we also excute the second function, which changes our secret variable to 'duper' string.
+// We console.log the secret variable. The console log will output duper.
 
 //CODE
 /*
