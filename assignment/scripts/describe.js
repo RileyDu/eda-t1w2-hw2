@@ -73,10 +73,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and give it the boolean value of true.
+// We make a variable called age and give it the number value of 34.
+// We make a variable called zip and give it the number value of 55407.
+// We check if the isStudent variable is true AND if the zip variable is greater than 80000.
+// The first conditional is met, but not the second, so we move forward to the next check.
+// We check if the isStudent variable is falso OR if the age variable is less than 30.
+// Neither of these conditions are met so we move onto the next check.
+// The next check is seeing if the isStudent variable is true. IT IS!! 
+// We console log Welcome to Prime!
+// Since our check went through, the code is done excuting. This means the default message about the weather is not used in this particular situation
 
 //CODE
 /*
