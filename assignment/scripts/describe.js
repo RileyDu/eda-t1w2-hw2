@@ -178,6 +178,15 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+
+// FIX - The function is written backwards. Right now it is checking if the minAge is less than or equal to the age. It needs to be checking if the age is greater or equal to the minAge. 
+// The console logs then have to be switched. This sets up the function to default to 'no entry' when the minimum age is not met. It should look like this
+// if(age >= minAge) {
+//  console.log ('enter');
+// } else {
+//  console.log ('no entry');
+// }
+
 if(minAge <= age) {
   console.log('no entry');
 } else {
