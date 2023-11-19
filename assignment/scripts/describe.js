@@ -140,13 +140,14 @@ if (number >= 2) {
 
 /*
 // FIX - colorOne and colorTwo values need to be changed
-// colorOne = blue & colorTwo = red
-let colorOne = 'blue';
-let colorTwo = 'red';
+// colorOne = 'blue';
+// colorTwo = 'red';
+let colorOne = 'red';
+let colorTwo = 'blue';
 let mix = true;
 
 // FIX - add to the function, colorTwo is also purple
-// colorTwo = 'pruple';
+// colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -186,6 +187,7 @@ const minAge = 21;
 // } else {
 //  console.log ('no entry');
 // }
+// The minimum age is met so the console logs enter.
 
 if(minAge <= age) {
   console.log('no entry');
